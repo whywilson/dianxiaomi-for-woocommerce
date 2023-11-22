@@ -1,0 +1,15 @@
+.hidden-field {
+	display: none;
+}
+
+#dianxiaomi_tracking_provider {
+	width: 100%;
+}
+
+.dianxiaomi_input_text {
+	width: 300px;
+}
+
+.dianxiaomi_dropdown {
+	width: 300px;
+}
