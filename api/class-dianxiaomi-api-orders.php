@@ -356,7 +356,8 @@ class Dianxiaomi_API_Orders extends Dianxiaomi_API_Resource
 		if (!empty($data['status'])) {
         	update_post_meta($id, '_dianxiaomi_tracking_number', $data['tracking_number']);
             update_post_meta($id, '_dianxiaomi_tracking_provider', $data['tracking_provider']);
-			$order->update_status($data['status'], isset($data['note']) ? $data['note'] : '');
+			$dianxiaomi_ignore_order_status = get_option('dianxiaomi_ignore_order_status', false);
+			$order->update_status( $dianxiaomi_ignore_order_status ? $order->status : $data['status'], isset($data['note']) ? $data['note'] : '');
 		}
 
 		return $this->get_order($id);
