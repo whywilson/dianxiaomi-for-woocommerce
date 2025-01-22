@@ -15,3 +15,8 @@ Dianxiaomi is free.
 
 ### ERP Plugin (Free)
 By installing Dianxiaomi plugin, you can automatically add Tracking Number and Courier fields to your admin panel. After you fulfill an order, simply enter the tracking number and select a courier at WooCommerce, the same info will be displayed at customer's order history page. Dianxiaomi supports over 360+ carriers worldwide, you can select couriers by [signing up a free Dianxiaomi account](https://www.dianxiaomi.com/).
+
+## Updates
+1. 修复邮件模板无物流商问题  
+2. 新增支持发货不更新订单状态  
+3. 修复店小秘插件授权方式兼容问题

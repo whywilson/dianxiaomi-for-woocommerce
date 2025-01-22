@@ -38,6 +38,11 @@ class Dianxiaomi_Settings
             'path' => 'dianxiaomi/dianxiaomi.php'
         );
         $this->plugins[] = array(
+            'value' => 'dianxiaomi',
+            'label' => 'Dianxiaomi(Wilson Mod)',
+            'path' => 'dianxiaomi-for-woocommerce/dianxiaomi.php'
+        );
+        $this->plugins[] = array(
             'value' => 'wc-shipment-tracking',
             'label' => 'WooCommerce Shipment Tracking',
             'path' => array('woocommerce-shipment-tracking/shipment-tracking.php', 'woocommerce-shipment-tracking/woocommerce-shipment-tracking.php')
